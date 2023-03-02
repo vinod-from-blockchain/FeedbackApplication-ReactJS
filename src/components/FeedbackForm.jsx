@@ -39,7 +39,7 @@ const handleTextChange=(e)=>{
   {
     setDisabled(true)
   }  
-  else if(text != '' && text.length <= 10)
+  else if(text !== '' && text.length <= 10)
   {
     setDisabled(true)
     setMessage("you must enter atleast 10 characters")

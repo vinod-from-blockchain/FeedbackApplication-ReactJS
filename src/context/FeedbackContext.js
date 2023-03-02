@@ -42,7 +42,7 @@ export const FeedbackProvider = ({children}) =>{
 
 const deleteFeedback=(id)=>{
     if(window.confirm('do you really want to delete?')){
-      setFeedback(feedback.filter((item)=> item.id!=id))
+      setFeedback(feedback.filter((item)=> item.id!==id))
     }
   }
   
